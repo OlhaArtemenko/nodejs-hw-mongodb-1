@@ -8,6 +8,6 @@ const router = Router();
 
 router.get('/', getAllContacts);
 
-router.get('/contacts/:contactId', getContactById);
+router.get('/:contactId', getContactById);
 
 export default router;
